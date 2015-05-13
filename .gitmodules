@@ -4,3 +4,6 @@
 [submodule "bundle/vim-dbgpclient"]
 	path = bundle/vim-dbgpclient
 	url = https://github.com/garyaj/vim-dbgpclient.git
+[submodule "bundle/emmet-vim"]
+	path = bundle/emmet-vim
+	url = https://github.com/mattn/emmet-vim.git
