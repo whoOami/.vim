@@ -9,6 +9,10 @@ set background=dark "Estilo 'dark' activo.
 set cursorline
 hi CursorLine cterm=NONE ctermbg=darkred ctermfg=none guibg=darkred guifg=white
 
+"Auto identado para etiquetas HTML.
+filetype plugin indent on
+let g:html_indent_inctags = "body,head,tbody"
+
 " 1 tab = 4 espacios
 set tabstop=4
 " Same for autoindenting
