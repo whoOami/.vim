@@ -11,7 +11,7 @@ hi CursorLine cterm=NONE ctermbg=darkred ctermfg=none guibg=darkred guifg=white
 
 "Auto identado para etiquetas HTML.
 filetype plugin indent on
-let g:html_indent_inctags = "body,head,tbody"
+let g:html_indent_inctags = "body,head,body,tbody"
 
 " 1 tab = 4 espacios
 set tabstop=4
@@ -29,3 +29,14 @@ set smarttab
 set shiftround
 
 execute pathogen#infect()
+
+" Configuracion Syntastic
+set statusline+=%#warningmsg#
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*
+
+let g:syntastic_always_populate_loc_list = 1
+let g:syntastic_auto_loc_list = 1
+let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_wq = 0
+let g:syntastic_php_checkers = ['php', 'phpcs', 'phpmd']
