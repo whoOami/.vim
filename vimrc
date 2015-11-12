@@ -13,6 +13,9 @@ hi CursorLine cterm=NONE ctermbg=darkred ctermfg=none guibg=darkred guifg=white
 filetype plugin indent on
 let g:html_indent_inctags = "body,head,body,tbody"
 
+"Configuraciones para emmet vim.
+let g:emmet_html5 = 0
+
 " 1 tab = 4 espacios
 set tabstop=4
 " Same for autoindenting
