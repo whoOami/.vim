@@ -31,4 +31,7 @@ set smarttab
 " Use multiple of shiftwidth when indenting with '<' and '>'
 set shiftround
 
+"Configuraciones para NERD Tree
+map <C-n> :NERDTreeToggle<CR>
+
 execute pathogen#infect()
