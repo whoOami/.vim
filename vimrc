@@ -15,6 +15,13 @@ let g:html_indent_inctags = "body,head,body,tbody"
 
 "Configuraciones para emmet vim.
 let g:emmet_html5 = 0
+let g:user_emmet_settings = { 
+\	'variables': { 
+\		'lang' : 'es',
+\		'locale': "es-CO",
+\		'charset': "UTF-8"
+\	} 
+\} 
 
 " 1 tab = 4 espacios
 set tabstop=4
