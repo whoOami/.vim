@@ -42,4 +42,7 @@ set shiftround
 "Configuraciones para NERD Tree
 map <C-n> :NERDTreeToggle<CR>
 
+"Ver ruta de fichero actual
+map  <C-g> <Esc>:echo expand('%:p')<Return>
+
 execute pathogen#infect()
