@@ -4,6 +4,7 @@ set nu "Numeración de lieas activa.
 set ic "Indiferencia entre mayúsculas y minúsculas.
 set hlsearch "Resaltado de busquedas.
 set background=dark "Estilo 'dark' activo.
+set ls=2 "Nombre fichero siempre visible.
 
 "Linea horizontal para el cursor.
 set cursorline
