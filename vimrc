@@ -4,6 +4,7 @@ set nu "Numeración de lieas activa.
 set ic "Indiferencia entre mayúsculas y minúsculas.
 set hlsearch "Resaltado de busquedas.
 set background=dark "Estilo 'dark' activo.
+set ls=2 "Nombre fichero siempre visible.
 
 "Linea horizontal para el cursor.
 set cursorline
@@ -15,6 +16,13 @@ let g:html_indent_inctags = "body,head,body,tbody"
 
 "Configuraciones para emmet vim.
 let g:emmet_html5 = 0
+let g:user_emmet_settings = { 
+\	'variables': { 
+\		'lang' : 'es',
+\		'locale': "es-CO",
+\		'charset': "UTF-8"
+\	} 
+\} 
 
 " 1 tab = 4 espacios
 set tabstop=4
@@ -33,5 +41,8 @@ set shiftround
 
 "Configuraciones para NERD Tree
 map <C-n> :NERDTreeToggle<CR>
+
+"Ver ruta de fichero actual
+map  <C-g> <Esc>:echo expand('%:p')<Return>
 
 execute pathogen#infect()
