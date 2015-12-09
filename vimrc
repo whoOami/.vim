@@ -4,11 +4,12 @@ set nu "Numeración de lieas activa.
 set ic "Indiferencia entre mayúsculas y minúsculas.
 set hlsearch "Resaltado de busquedas.
 set background=dark "Estilo 'dark' activo.
+colorscheme murphy "Estlos vim
 set ls=2 "Nombre fichero siempre visible.
 
 "Linea horizontal para el cursor.
 set cursorline
-hi CursorLine cterm=NONE ctermbg=darkred ctermfg=none guibg=darkred guifg=white
+"hi CursorLine cterm=NONE ctermbg=darkred ctermfg=none guibg=darkred guifg=white
 
 "Auto identado para etiquetas HTML.
 filetype plugin indent on
