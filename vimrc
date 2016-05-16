@@ -39,6 +39,8 @@ set copyindent
 set smarttab
 " Use multiple of shiftwidth when indenting with '<' and '>'
 set shiftround
+" Cambia el sentido del verticar split
+set splitright
 
 "Configuraciones para NERD Tree
 map <C-n> :NERDTreeToggle<CR>
