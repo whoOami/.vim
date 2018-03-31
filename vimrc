@@ -48,4 +48,10 @@ map <C-n> :NERDTreeToggle<CR>
 "Ver ruta de fichero actual
 map  <C-g> <Esc>:echo expand('%:p')<Return>
 
+"Facil cambio de panel
+map <C-S-Down> <C-W>j
+map <C-S-Up> <C-W>k
+map <C-S-Left> <C-W>h
+map <C-S-Right> <C-W>l
+
 execute pathogen#infect()
