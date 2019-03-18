@@ -52,5 +52,5 @@ map <C-S-Down> <C-W>j
 map <C-S-Up> <C-W>k
 map <C-S-Left> <C-W>h
 map <C-S-Right> <C-W>l
-
+command ParserJson %!python -m json.tool
 execute pathogen#infect()
