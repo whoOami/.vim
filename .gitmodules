@@ -28,3 +28,9 @@
 [submodule "bundle/scss-syntax.vim"]
 	path = bundle/scss-syntax.vim
 	url = https://github.com/cakebaker/scss-syntax.vim
+[submodule "bundle/vim-markdown"]
+	path = bundle/vim-markdown
+	url = https://github.com/gabrielelana/vim-markdown
+[submodule "bundle/colors-pencil"]
+	path = bundle/colors-pencil
+	url = https://github.com/reedes/vim-colors-pencil.git
