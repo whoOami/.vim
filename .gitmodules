@@ -34,3 +34,6 @@
 [submodule "bundle/colors-pencil"]
 	path = bundle/colors-pencil
 	url = https://github.com/reedes/vim-colors-pencil.git
+[submodule "bundle/colorschema"]
+	path = bundle/colorschema
+	url = https://github.com/flazz/vim-colorschemes.git
