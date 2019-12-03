@@ -25,9 +25,9 @@ let g:user_emmet_settings = {
 \} 
 
 " 1 tab = 4 espacios
-set tabstop=4
+set tabstop=2
 " Same for autoindenting
-set shiftwidth=4
+set shiftwidth=2
 " Use tabs, not spaces for indenting
 set noexpandtab
 " Indenting
@@ -63,3 +63,5 @@ let g:pencil_terminal_italics = 1
 let g:airline_theme = 'pencil'
 execute pathogen#infect()
 colorscheme trogdor
+set exrc
+set secure
