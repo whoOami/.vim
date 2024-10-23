@@ -24,6 +24,9 @@ let g:user_emmet_settings = {
 \	} 
 \} 
 
+
+set directory=~/.vim/swap
+
 " 1 tab = 4 espacios
 set tabstop=2
 " Same for autoindenting
